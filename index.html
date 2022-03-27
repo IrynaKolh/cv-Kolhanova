@@ -5,11 +5,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Kolhanova</title>
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Permanent+Marker&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header class="header">
+        <div class="navigation-containers">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <main>
+        <aside class="aside">
+            <div class="photo">
+                <img src="assets/my-photo.JPG" alt="my photo" class="my-photo">
+            </div>
+            <div class="contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li class="">Kharkiv, Ukraine</li>
+                    <li class="">Phone: +380667782377</li>
+                    <li class="">E-mail: iryna.kolhanova@gmail.com</li>
+                    <li class="">Skype: belkin1987</li>
+                    <li class="">Linkedin: https://www.linkedin.com/in/iryna-bilych-46128266/</li>
+                    <li class="">Githab: https://github.com/IrynaKolh</li>
+                </ul>
+            </div>
+            <div class="languages" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Ukrainian - Fluent</li>
+                    <li>Russian – Fluent</li>
+                    <li>English - Intermediate</li>
+                </ul>
+            </div>
+        </aside>
+
+        <section class="section">
+            <div class="profile">
+                <h1>
+                    <span class="my-name">Iryna Kolhanova</span>
+                    <br/>
+                    <i>Junior Front-end Developer</i>
+                </h1>
+            </div>
+            <div class="summary" id="summary">
+                <h2 class="section-title">About me</h2>
+                <p>Hello, my name is Iryna Kolhanova. I am a junior front-end developer. I like programming. I like to learn something new all time. Now I want to improve my knowledge in JavaScript. My goal to become a good specialist in programming. I am
+                    glad to join to this opportunity and training course. I am passionate about learning new technologies, motivated and well organized.</p>
+                <p>PERSONAL PROFILE: responsible, fast learner, attentive, friendly ,pragmatic, highly motivated.</p>
+                <p>INTERESTS: Books, travelling, movies.</p>
+            </div>
+            <div class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Operating systems: Microsoft Windows, Linux Ubuntu, Android</li>
+                    <li>Languages: HTML5, CSS3, JavaScript Basics, Python basic, Java basic</li>
+                    <li>Database: SQL Server (Basic skills)</li>
+                    <li>Test & amp; Bug-tracking: Jira, Test-link,, Mantis</li>
+                    <li>Others: Google Docs, VisualStudio, PowerPoint, ОСА (OSA), SPSS</li>
+                </ul>
+            </div>
+            <div id="code">
+                <h2 class="section-title">Code</h2>
+
+                <pre class="code">
+                    <code>
+                        function showQuotes() {
+                            if (selectedLng == 'en') {
+                                getData();
+                            } else {
+                                getQuotes();
+                            }
+
+                            let image = document.querySelector('.side-img');
+                            image.classList.add("side-img-active");
+                        
+                            setTimeout(function() {                        
+                                image.classList.remove("side-img-active");                        
+                            }, 1100);
+                        }
+                    </code>
+                </pre>
+
+            </div>
+
+            <div class="courses" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <p> 2022 - Full stack QA (California) (in progress)</p>
+                <p> 2022 - RSSchool JavaScript/Front-end 2022Q1 course (in progress)</p>
+                <p> 2022 - Test Automation Winter Program EPAM (in progress)</p>
+                <p> 2022 - RSSchool JavaScript/Front-end Pre-School 2022 course</p>
+                <p> 2021 - Online course "JavaScript Start", "Python", "Java" in ITVDN</p>
+                <p> 2020 - Online courses “The Fundamentals of Web UI development”, “The Fundamentals of Software Testing”, “The basics of Python programming” in Prometheus.</p>
+                <p> 2019 - Online course “The Fundamentals of Software Testing” in QATestLab Training Center.</p>
+            </div>
+            <div id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects">
+                    <a class="project-link" href="https://rolling-scopes-school.github.io/irynakolh-JSFEPRESCHOOL/portfolio/" target="_blank"><img src="./assets/portfolio.png" alt="portfolio"></a>
+                    <a class="project-link" href="https://competent-neumann-f32c94.netlify.app/" target="_blank"><img src="./assets/sounds.png" alt="eco sounds"></a>
+                    <a class="project-link" href="https://rolling-scopes-school.github.io/irynakolh-JSFEPRESCHOOL/memory-game/" target="_blank"><img src="./assets/memory-game.png" alt="memory game"></a>
+                    <a class="project-link" href="https://rolling-scopes-school.github.io/irynakolh-JSFEPRESCHOOL/random-jokes/" target="_blank"><img src="./assets/joke.png" alt="random joke"></a>
+                </div>
+            </div>
+            <div class="education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>2006-2011 - V. N. Karazin Kharkiv National University (sociology)</p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="git-links">
+            <span class="git-link">©</span>
+            <span class="git-link">2022</span>
+            <a class="github-link" href="https://github.com/irynakolh" target="_blank">github</a>
+        </div>
+        <div class="school-link">
+            <a href="https://rs.school/js/" target="_blank"><img src="./assets/rss.svg" alt="rss"></a>
+        </div>
+    </footer>
 </body>
 
 </html>
