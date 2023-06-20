@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Managment-App",
+    "imgUrl": "./assets/PmApp.png",
+    "url": "https://rss-pm-app.netlify.app/",
+    "github": "https://github.com/DDD-fx/RSS-Project-Managment-App",
+    "level": "3",
+    "description": "RSS PM is an application that helps people achieve their goals. RSS PM is great for organizing your to-do lists, ideas, and is very easy to use. You can create several boards to use for various projects. SPA projects featuring a 100% adaptive design, using SASS.",
+    "skills": ["Angular", "TypeScript", "NgRx",  "Angular Material UI"],
+    "team": true
+  },
+  {
+    "name": "GraphiQL",
+    "imgUrl": "./assets/GraphiGL.png",
+    "url": "https://alexsmirnova13.github.io/graphiql-app/",
+    "github": "https://github.com/alexsmirnova13/graphiql-app/tree/develop",
+    "level": "3",
+    "description": "GraphiQL is a playground/IDE for graphQL requests. Our application offers users an easy and fast way to perform GraphQL queries to obtain data from various sources. With our intuitive interface, you can easily create and execute queries to get the information you need.",
+    "skills": ["React", "TypeScript", "Mantine", "FireBase", "Redux"],
+    "team": true
+  },
+  {
+    "name": "Rick and Morty characters App",
+    "imgUrl": "./assets/RickMorty.png",
+    "url": "https://aquamarine-duckanoo-4aa8b0.netlify.app/",
+    "github": "https://github.com/IrynaKolh/react-rss-app",
+    "level": "3",
+    "description": "Learning React project with API and Redux. SPA for exporing Rick and Morty cinematic Universe (characters, locations, episodes), with sorting and pagination.",
+    "skills": ["React", "TypeScript", "Redux", "Vite", "React Testing Library"],
+    "team": false
+  },
+  {
+    "name": "Youtube Video",
+    "imgUrl": "./assets/youtube.png",
+    "url": "https://youtube-kolh.netlify.app",
+    "github": "",
+    "level": "2",
+    "description": "Learning Angular project with API and Redux. SPA for seaching and filtring videos from youtube. ",
+    "skills": ["Angular", "TypeScript", "NgRx",  "Angular Material UI"],
+    "team": false
+  },
+  {
+    "name": "AsyncRace",
+    "imgUrl": "./assets/race.png",
+    "url": "https://64910ad4c41d515b1259e466--timely-lolly-dc46a0.netlify.app/",
+    "github": "https://github.com/IrynaKolh/asyncRace/tree/client",
+    "level": "2",
+    "description": "SPA to manage the collection of the cars, operate its engines, and show races statistics. App ",
+    "skills": ["TypeScript", "HTML", "CSS", "Figma", "Webpack"],
+    "team": false
+  },  
+  {
+    "name": "Online Shop",
+    "imgUrl": "./assets/shop.png",
+    "url": "https://rolling-scopes-school.github.io/irynakolh-JSFE2022Q1/onlineShop/",
+    "github": "",
+    "level": "2",
+    "description": "An online vegetable store where goods will have the following functionality: filtering, sorting, searching, adding to cart.",
+    "skills": ["TypeScript", "HTML", "CSS", "Webpack"],
+    "team": false
+  },
+  {
+    "name": "News Portal",
+    "imgUrl": "./assets/News.png",
+    "url": "https://newsportalkolh.netlify.app/",
+    "github": "https://github.com/IrynaKolh/migration_to_ts/tree/develop",
+    "level": "2",
+    "description": "The News API is a simple HTTP REST API for searching and retrieving news from around the web. The project is designed to get the experience with the API - asynchronously receiving data and displaying it on the page.",
+    "skills": ["TypeScript", "HTML", "CSS", "Webpack"],
+    "team": false
+  },
+  {
+    "name": "Presentation",
+    "imgUrl": "./assets/MongoDB.png",
+    "url": "https://rolling-scopes-school.github.io/irynakolh-JSFE2022Q1/presentation/",
+    "github": "",
+    "level": "",
+    "description": "MongoDB presentation using Reveal.js (HTML presentation framework). The framework comes with a broad range of features including nested slides, Markdown support, Auto-Animate, PDF export, speaker notes, LaTeX support and syntax highlighted code.",
+    "skills": ["JavaScript", "HTML", "CSS", "Reveal.js"],
+    "team": false
+  },
+  {
+    "name": "Portfolio",
+    "imgUrl": "./assets/portfolio.png",
+    "url": "https://rolling-scopes-school.github.io/irynakolh-JSFEPRESCHOOL/portfolio",
+    "github": "",
+    "level": "2",
+    "description": "Portfolio - landing page of a photographer's portfolio, it шы adaptive and interactive, with localization, theme. Key skills: valid semantic adaptive layout, easy to maintain readable code, export styles and graphics from Figma, using JavaScript to implement the functionality specified in the task",
+    "skills": ["JavaScript", "HTML", "CSS", "Figma"],
+    "team": false
+  },
+  {
+    "name": "Memory Game",
+    "imgUrl": "./assets/memory-game.png",
+    "url": "https://rolling-scopes-school.github.io/irynakolh-JSFEPRESCHOOL/memory-game/",
+    "github": "",
+    "level": "2",
+    "description": "A memory-game set of twelve pairs of identical cards, which are displayed face down. By clicking on a card, the player turns it over and clicks on the next card. If two cards have the same drawings, they remain open; if the drawings are different, the cards are turned face down. The goal of the game is to open all the cards in the least number of moves.",
+    "skills": ["JavaScript", "HTML", "CSS"],
+    "team": false
+  },
+  {
+    "name": "Wordle",
+    "imgUrl": "./assets/wordle.png",
+    "url": "https://649131c038df29729d152421--darling-moxie-35a8e9.netlify.app/",
+    "github": "",
+    "level": "2",
+    "description": "Wordle game is implemented in Ukrainian language. Get 6 chances to guess a 5-letter word. GREEN is in the word and in the correct spot. YELLOW is in the word but in the wrong spot. GREY is not in the word in any spot.",
+    "skills": ["JavaScript", "HTML", "CSS"],
+    "team": false
+  },
+  {
+    "name": "Random Joke",
+    "imgUrl": "./assets/joke.png",
+    "url": "https://rolling-scopes-school.github.io/irynakolh-JSFEPRESCHOOL/random-jokes/",
+    "github": "",
+    "level": "1",
+    "description": "Random-jokes is one of the JavaScript projects of the popular free English course freeCodeCamp. The project is designed to get the first experience with the API - asynchronously receiving data and displaying it on the page. This is an application in which, when a button is clicked, a random quote is displayed, received from any suitable API.",
+    "skills": ["JavaScript", "HTML", "CSS"],
+    "team": false
+  },
+  {
+    "name": "Sounds of nature",
+    "imgUrl": "./assets/sounds.png",
+    "url": "https://competent-neumann-f32c94.netlify.app",
+    "github": "",
+    "level": "1",
+    "description": "Project with media (audio files). The site, on each page of which landscapes of amazing beauty are displaying and its own unique melody are playing, into which the singing of birds are sounding. This is an application in which, when clicking on interactive elements, you can switch the image and sound.",
+    "skills": ["JavaScript", "HTML", "CSS"],
+    "team": false
+  }
+]

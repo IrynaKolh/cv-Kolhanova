@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #0ea5e9;
 } */
 
 .active {
@@ -20,7 +20,7 @@
 
 body[data-theme="light"] {
   background-color: #fff;
-  color: #000;
+  color: #1f2937;
 }
 
 body[data-theme="dark"] {
