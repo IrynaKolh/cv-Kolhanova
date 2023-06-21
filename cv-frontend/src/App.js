@@ -8,12 +8,16 @@ import OtherPage from './pages/OtherPage';
 import ContactsPage from './pages/ContactsPage';
 import Layout from './components/Layout';
 import { ThemeContext } from './contex';
+import { getTheme } from './helpers/utils';
+import { withTranslation } from 'react-i18next';
 
 function App() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(getTheme());
 
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    localStorage.setItem('theme', newTheme);
   };
 
   return (
@@ -31,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default withTranslation()(App);

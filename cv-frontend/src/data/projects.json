@@ -45,7 +45,7 @@
     "url": "https://64910ad4c41d515b1259e466--timely-lolly-dc46a0.netlify.app/",
     "github": "https://github.com/IrynaKolh/asyncRace/tree/client",
     "level": "2",
-    "description": "SPA to manage the collection of the cars, operate its engines, and show races statistics. App ",
+    "description": "SPA to manage the collection of the cars, operate its engines, and show races statistics. App has own backend.",
     "skills": ["TypeScript", "HTML", "CSS", "Figma", "Webpack"],
     "team": false
   },  

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Trans } from 'react-i18next';
 
 const HomePage = () => {
   return (
@@ -6,44 +7,72 @@ const HomePage = () => {
       <div className="flex flex-row justify-around text-center gap-5">
         <div>
           <h1 className="text-5xl my-5">
-            Iryna Kolhanova | <span className="text-lg">Front-end Developer</span>
+            <Trans i18nKey="homepage.name" /> |
+            <span className="text-lg">
+              <Trans i18nKey="homepage.jobTitle" />
+            </span>
           </h1>
-          <h3 className="text-2xl text-left my-2">Summary:</h3>
+          <h3 className="text-2xl text-left my-2">
+            <Trans i18nKey="homepage.summary" />
+          </h3>
           <p className="text-left">
-            A highly skilled Frontend Web Developer with experience to design and implement
-            responsive and user-friendly websites. Proficient in HTML, CSS, JavaScript, and various
-            frontend frameworks. Strong ability to collaborate with cross-functional teams and
-            deliver high-quality solutions. Continuously staying updated with emerging trends and
-            technologies in frontend development.
+            <Trans i18nKey="homepage.text" />
           </p>
-          <h3 className="text-2xl text-left mt-4 mb-2">Skills:</h3>
+          <h3 className="text-2xl text-left mt-4 mb-2">
+            <Trans i18nKey="homepage.skills" />
+          </h3>
           <ul className="flex flex-col flex-wrap text-left">
             <li>
-              <b>Languages: </b>JavaScript (ES6+), TypeScript, HTML5, CSS3 (preprocessors: Sass,
-              Less), NodeJS
+              <b>
+                <Trans i18nKey="homepage.langs" />
+              </b>
+              JavaScript (ES6+), TypeScript, HTML5, CSS3 (preprocessors: Sass, Less), NodeJS
             </li>
             <li>
-              <b>Frameworks/Libraries: </b>React, Angular, Material UI, Bootstrap, TailwindCSS,
-              Mantine, Express, Next.js
+              <b>
+                <Trans i18nKey="homepage.libs" />
+              </b>
+              React, Angular, Material UI, Bootstrap, TailwindCSS, Mantine, Express, Next.js
             </li>
             <li>
-              <b>Tools: </b>Git/GitHub, Webpack, Gulp, Docker, Figma, Postman, Swagger
+              <b>
+                <Trans i18nKey="homepage.tools" />
+              </b>
+              Git/GitHub, Webpack, Gulp, Docker, Figma, Postman, Swagger
             </li>
             <li>
-              <b>Project Management: </b>Jira, Trello, Slack, Discord
+              <b>
+                <Trans i18nKey="homepage.pm" />{' '}
+              </b>
+              Jira, Trello, Slack, Discord
             </li>
             <li>
-              <b>IDEs: </b>VSCode, IntelliJ IDEA, WebStorm
+              <b>
+                <Trans i18nKey="homepage.ide" />{' '}
+              </b>
+              VSCode, IntelliJ IDEA, WebStorm
             </li>
             <li>
-              <b>Testing: </b>Cypress, Jest, RTL
+              <b>
+                <Trans i18nKey="homepage.test" />{' '}
+              </b>
+              Cypress, Jest, RTL
             </li>
             <li>
-              <b>Databases: </b>MySQL, PostgreSQL, MongoDB, FireBase
+              <b>
+                <Trans i18nKey="homepage.db" />
+              </b>
+              MySQL, PostgreSQL, MongoDB, FireBase
             </li>
-            <li>Experience with RESTful APIs, GraphQL and JSON</li>
-            <li>Strong problem-solving and analytical skills</li>
-            <li>Excellent communication and collaboration abilities</li>
+            <li>
+              <Trans i18nKey="homepage.li1" />
+            </li>
+            <li>
+              <Trans i18nKey="homepage.li2" />
+            </li>
+            <li>
+              <Trans i18nKey="homepage.li3" />
+            </li>
           </ul>
         </div>
         <div className="flex items-center">

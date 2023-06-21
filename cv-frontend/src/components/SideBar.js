@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Trans } from 'react-i18next';
 
 const SideBar = () => {
   return (
@@ -22,7 +23,9 @@ const SideBar = () => {
                     d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"
                   />
                 </svg>
-                <span className="group-hover:text-gray-700">Skills</span>
+                <span className="group-hover:text-gray-700">
+                  <Trans i18nKey="sidebar.skills" />
+                </span>
               </NavLink>
             </li>
             <li className="min-w-max">
@@ -40,7 +43,9 @@ const SideBar = () => {
                     d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z"
                   />
                 </svg>
-                <span className="group-hover:text-gray-700">Education</span>
+                <span className="group-hover:text-gray-700">
+                  <Trans i18nKey="sidebar.education" />
+                </span>
               </NavLink>
             </li>
             <li className="min-w-max">
@@ -62,7 +67,9 @@ const SideBar = () => {
                     className="fill-current text-gray-600 group-hover:text-cyan-600"
                   ></path>
                 </svg>
-                <span className="group-hover:text-gray-700">Projects</span>
+                <span className="group-hover:text-gray-700">
+                  <Trans i18nKey="sidebar.projects" />
+                </span>
               </NavLink>
             </li>
             {/* <li className="min-w-max">
@@ -71,7 +78,7 @@ const SideBar = () => {
                   <path className="fill-current text-gray-600 group-hover:text-cyan-600" d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
                   <path className="fill-current text-gray-300 group-hover:text-cyan-300" d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
                 </svg>
-                <span className="group-hover:text-gray-700">Work expirience</span>
+                <span className="group-hover:text-gray-700"><Trans i18nKey="sidebar.work" /></span>
               </NavLink>
             </li> */}
             <li className="min-w-max">
@@ -89,7 +96,9 @@ const SideBar = () => {
                     d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z"
                   />
                 </svg>
-                <span className="group-hover:text-gray-700">Contacts</span>
+                <span className="group-hover:text-gray-700">
+                  <Trans i18nKey="sidebar.contacts" />
+                </span>
               </NavLink>
             </li>
           </ul>

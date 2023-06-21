@@ -1,17 +1,22 @@
 import React from 'react';
 import { IconLink } from '@tabler/icons-react';
+import { Trans } from 'react-i18next';
 
 const EducationPage = () => {
   return (
     <div className="w-5/6 mx-auto mt-5 flex flex-col gap-3">
-      <h2 className="text-3xl my-5">My Education</h2>
+      <h2 className="text-3xl my-5">
+        <Trans i18nKey="education.title" />
+      </h2>
       <div>
         <p>
-          <b className="text-lg my-1">Diploma: </b>Bachelor and Master degrees in Sociology and
-          Social Work
+          <b className="text-lg my-1">
+            <Trans i18nKey="education.diploma" />
+          </b>
+          <Trans i18nKey="education.degree" />
         </p>
         <p className="flex flex-row gap-2 items-center">
-          V. N. Karazin Kharkiv National University
+          <Trans i18nKey="education.university" />
           <a href="https://karazin.ua/en/" target="_blank" rel="noreferrer">
             <IconLink size={20} strokeWidth={1} color={'#0ea5e9'} />
           </a>
@@ -19,7 +24,9 @@ const EducationPage = () => {
       </div>
       <div>
         <p className="text-lg my-1">
-          <b>Courses: </b>
+          <b>
+            <Trans i18nKey="education.courses" />
+          </b>
         </p>
         <ul>
           <li className="flex flex-row gap-2 items-center">
@@ -30,8 +37,8 @@ const EducationPage = () => {
               target="_blank"
               rel="noreferrer"
             >
-              {' '}
-              <IconLink size={20} strokeWidth={1} color={'#0ea5e9'} /> Certificates
+              <IconLink size={20} strokeWidth={1} color={'#0ea5e9'} />
+              <Trans i18nKey="education.certificate" />
             </a>
           </li>
           <li className="flex flex-row gap-2 items-center">
@@ -40,8 +47,8 @@ const EducationPage = () => {
               className="flex flex-row items-center text-sky-500"
               href="https://www.credly.com/badges/503868b4-63ee-4e74-a366-1bf7b7bd3f46/linked_in_profile"
             >
-              {' '}
-              <IconLink size={20} strokeWidth={1} color={'#0ea5e9'} /> AWS Certification
+              <IconLink size={20} strokeWidth={1} color={'#0ea5e9'} />
+              <Trans i18nKey="education.aws" />
             </a>
           </li>
           <li className="flex flex-row gap-2 items-center">
@@ -65,7 +72,9 @@ const EducationPage = () => {
       </div>
       <div>
         <p className="text-lg my-1">
-          <b>Achievement: </b>
+          <b>
+            <Trans i18nKey="education.achievement" />
+          </b>
         </p>
         <div className="flex flex-row items-center gap-2">
           <p>Codewars</p>

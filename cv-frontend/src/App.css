@@ -19,11 +19,20 @@
 }
 
 body[data-theme="light"] {
-  background-color: #fff;
-  color: #1f2937;
+  background-color: #ffffff;
+  color: #1f2937;  
 }
+
+/* body[data-theme="light"] button.my-class {
+  border: #1f2937 1px solid;    
+} */
 
 body[data-theme="dark"] {
   background-color: #1f2937;
-  color: #fff;
+  color: #ffffff;
+}
+
+body[data-theme="dark"] button.my-class {
+  border: #ffffff 1px solid; 
+  color: #1f2937;   
 }
