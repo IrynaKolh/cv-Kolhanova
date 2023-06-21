@@ -7,11 +7,11 @@ import Footer from './Footer';
 const Layout = () => {
   return (
     <>
-      <div className="flex flex-row">
+      <div className="flex flex-col lg:flex-row">
         <SideBar />
         <div className="flex flex-col w-full min-h-screen">
           <Header />
-          <main className="flex-grow">
+          <main className="mx-5 flex-grow">
             <Outlet />
           </main>
           <Footer className="mt-auto" />

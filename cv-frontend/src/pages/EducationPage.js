@@ -5,7 +5,7 @@ import { Trans } from 'react-i18next';
 const EducationPage = () => {
   return (
     <div className="w-5/6 mx-auto mt-5 flex flex-col gap-3">
-      <h2 className="text-3xl my-5">
+      <h2 className="text-center text-2xl md:text-3xl lg:my-5">
         <Trans i18nKey="education.title" />
       </h2>
       <div>
@@ -15,7 +15,7 @@ const EducationPage = () => {
           </b>
           <Trans i18nKey="education.degree" />
         </p>
-        <p className="flex flex-row gap-2 items-center">
+        <p className="flex flex-wrap flex-row gap-2 items-center">
           <Trans i18nKey="education.university" />
           <a href="https://karazin.ua/en/" target="_blank" rel="noreferrer">
             <IconLink size={20} strokeWidth={1} color={'#0ea5e9'} />
@@ -28,8 +28,8 @@ const EducationPage = () => {
             <Trans i18nKey="education.courses" />
           </b>
         </p>
-        <ul>
-          <li className="flex flex-row gap-2 items-center">
+        <ul className="flex flex-col justify-between gap-2">
+          <li className="flex flex-wrap flex-row gap-2 items-center">
             <b>RS School: </b>JavaScript, TypeScript, React, Angular, NodeJS, AWS Fundamental
             <a
               className="flex flex-row items-center text-sky-500"
@@ -41,7 +41,7 @@ const EducationPage = () => {
               <Trans i18nKey="education.certificate" />
             </a>
           </li>
-          <li className="flex flex-row gap-2 items-center">
+          <li className="flex flex-wrap flex-row gap-2 items-center">
             <b>AWS: </b>AWS Cloud Quest: Cloud Practitioner
             <a
               className="flex flex-row items-center text-sky-500"
@@ -51,14 +51,14 @@ const EducationPage = () => {
               <Trans i18nKey="education.aws" />
             </a>
           </li>
-          <li className="flex flex-row gap-2 items-center">
+          <li className="flex flex-wrap flex-row gap-2 items-center">
             <b>EPAM (University program): </b>Front-end Program (JavaScript, React, Angular,
             NodeJS), Automated Testing
             <a href="https://training.epam.ua/#!/Home?lang=en" target="_blank" rel="noreferrer">
               <IconLink size={20} strokeWidth={1} color={'#0ea5e9'} />
             </a>
           </li>
-          <li className="flex flex-row gap-2 items-center">
+          <li className="flex flex-wrap flex-row gap-2 items-center">
             <b>RedRover School: </b> Automation Testing (Cypress), Front-end (React)
             <a
               href="https://www.linkedin.com/company/redrover-school/"

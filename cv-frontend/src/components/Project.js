@@ -4,13 +4,14 @@ import { Trans } from 'react-i18next';
 
 const Project = ({ project, index }) => {
   return (
-    <div className="shadow-lg shadow-cyan-500/50 rounded-lg flex flex-row">
-      <img
-        className="rounded-t-lg p-3 min-w-xs max-w-xl object-cover object-center"
-        src={project.imgUrl}
-        alt="project"
-      />
-      <div className="px-5 pb-5 flex flex-col justify-center">
+    <div className="shadow-lg shadow-cyan-500/50 rounded-lg flex flex-col lg:flex-row">
+      <div
+        className="h-64 lg:h-auto lg:w-2/5 m-3 rounded-lg bg-cover bg-center"
+        style={{
+          backgroundImage: `url(${project.imgUrl})`,
+        }}
+      ></div>
+      <div className="lg:w-3/5 px-5 pb-5 flex flex-col justify-center">
         <h3 className="font-semibold text-xl tracking-tight text-center">
           <Trans i18nKey={`project.${index}.name`} />
         </h3>
@@ -20,7 +21,7 @@ const Project = ({ project, index }) => {
               <Trans i18nKey="project.team" />
             </button>
           )}
-          <p>
+          <p className="text-justify indent-4">
             <Trans i18nKey={`project.${index}.description`} />
           </p>
           <div className="flex flex-row flex-wrap gap-1 m-3 justify-center">

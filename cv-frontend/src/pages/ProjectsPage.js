@@ -6,7 +6,7 @@ import { Trans } from 'react-i18next';
 const ProjectsPage = () => {
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-3xl my-5">
+      <h2 className="text-center text-2xl md:text-3xl mt-3 md:mt-7">
         <Trans i18nKey="project.title" />
       </h2>
       <ul className="flex flex-col gap-10 justify-center max-w-screen-lg">

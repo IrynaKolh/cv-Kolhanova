@@ -105,7 +105,7 @@
     "url": "https://649131c038df29729d152421--darling-moxie-35a8e9.netlify.app/",
     "github": "",
     "level": "2",
-    "description": "Wordle game is implemented in Ukrainian language. Get 6 chances to guess a 5-letter word. GREEN is in the word and in the correct spot. YELLOW is in the word but in the wrong spot. GREY is not in the word in any spot.",
+    "description": "Wordle game is implemented in Ukrainian language. Get 6 chances to guess the 5 letter word. The GREEN background in the word is the letter in the correct place. YELLOW - is in the word, but not elsewhere. GRAY - there is no such letter in the word.",
     "skills": ["JavaScript", "HTML", "CSS"],
     "team": false
   },

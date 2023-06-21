@@ -12,7 +12,7 @@ import { Trans } from 'react-i18next';
 const ContactsPage = () => {
   return (
     <div className="flex flex-col w-5/6 mx-auto mt-5 gap-3">
-      <h2 className="text-3xl my-5">
+      <h2 className="text-center text-2xl md:text-3xl lg:my-5">
         <Trans i18nKey="contacts.title" />
       </h2>
       <div className="flex flex-row items-center gap-2">

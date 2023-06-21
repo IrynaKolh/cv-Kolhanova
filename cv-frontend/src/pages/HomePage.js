@@ -4,21 +4,21 @@ import { Trans } from 'react-i18next';
 const HomePage = () => {
   return (
     <div className="w-5/6 mx-auto mt-5">
-      <div className="flex flex-row justify-around text-center gap-5">
+      <div className="flex flex-col-reverse items-center lg:flex-row justify-around text-center gap-5">
         <div>
-          <h1 className="text-5xl my-5">
+          <h1 className="text-2xl md:text-5xl flex flex-wrap items-end justify-center md:block lg:my-5">
             <Trans i18nKey="homepage.name" /> |
-            <span className="text-lg">
+            <span className="text-lg ml-1">
               <Trans i18nKey="homepage.jobTitle" />
             </span>
           </h1>
-          <h3 className="text-2xl text-left my-2">
+          <h3 className="text-lg md:text-2xl text-left my-2">
             <Trans i18nKey="homepage.summary" />
           </h3>
           <p className="text-left">
             <Trans i18nKey="homepage.text" />
           </p>
-          <h3 className="text-2xl text-left mt-4 mb-2">
+          <h3 className="text-lg md:text-2xl text-left mt-4 mb-2">
             <Trans i18nKey="homepage.skills" />
           </h3>
           <ul className="flex flex-col flex-wrap text-left">
@@ -76,7 +76,11 @@ const HomePage = () => {
           </ul>
         </div>
         <div className="flex items-center">
-          <img className="rounded-full" src="./assets/my-photo3.jpg" alt="Iryna" />
+          <img
+            className="h-64 w-64 rounded-full lg:w-auto lg:h-auto"
+            src="./assets/my-photo3.jpg"
+            alt="Iryna"
+          />
         </div>
       </div>
     </div>

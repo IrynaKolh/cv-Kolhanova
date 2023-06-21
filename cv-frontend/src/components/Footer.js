@@ -6,7 +6,7 @@ import { Trans } from 'react-i18next';
 const Footer = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <div className="flex flex-row gap-2 items-center justify-center">
+    <footer className="flex flex-row gap-2 items-center justify-center">
       <IconCircleLetterC
         size={20}
         strokeWidth={2}
@@ -15,7 +15,7 @@ const Footer = () => {
       <span>
         2023 <Trans i18nKey="footer" />{' '}
       </span>
-    </div>
+    </footer>
   );
 };
 

@@ -1,7 +1,7 @@
 {
   "homepage": {
     "name": "Iryna Kolhanova ",
-    "jobTitle": " Front-end Developer",
+    "jobTitle": "Front-end Developer",
     "summary": "Summary ",
     "text": "A highly skilled Frontend Web Developer with experience to design and implement responsive and user-friendly websites. Proficient in HTML, CSS, JavaScript, and various frontend frameworks. Strong ability to collaborate with cross-functional teams and deliver high-quality solutions. Continuously staying updated with emerging trends and technologies in frontend development.",
     "skills": "Skills",
@@ -71,7 +71,7 @@
     },
     "10": {
       "name": "Wordle",
-      "description": "Wordle game is implemented in Ukrainian language. Get 6 chances to guess a 5-letter word. GREEN is in the word and in the correct spot. YELLOW is in the word but in the wrong spot. GREY is not in the word in any spot."
+      "description": "Wordle game is implemented in Ukrainian language. Get 6 chances to guess the 5 letter word. The GREEN background in the word is the letter in the correct place. YELLOW - is in the word, but not elsewhere. GRAY - there is no such letter in the word."
     },
     "11": {
       "name": "Random Joke",
@@ -87,7 +87,7 @@
   "contacts": {
     "title": "Contacts",
     "location": "Location: Cleveland, OH, USA",
-    "phone": "Phone: +1-216-376-1912",
+    "phone": "Phone: +1-216-376-****",
     "email": "E-mail: iryna.kolhanova@gmail.com",
     "skype": "Skype: belkin1987",
     "linkedin": "Linkedin: Iryna Kolhanova",

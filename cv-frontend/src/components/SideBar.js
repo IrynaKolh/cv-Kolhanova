@@ -4,14 +4,14 @@ import { Trans } from 'react-i18next';
 
 const SideBar = () => {
   return (
-    <div className="min-h-fit">
-      <div className="sidebar min-h-screen w-[3.35rem] overflow-hidden border-r hover:w-56 hover:shadow-lg hover:bg-gray-100">
-        <div className="flex h-screen flex-col justify-between pt-2 pb-6">
-          <ul className="mt-6 space-y-2 tracking-wide">
-            <li className="min-w-max">
+    <div className="lg:min-h-fit">
+      <div className="sidebar lg:min-h-screen lg:w-[3.35rem] lg:overflow-hidden border-r lg:hover:w-56 hover:shadow-lg hover:bg-gray-100">
+        <div className="flex lg:h-screen lg:flex-col justify-between lg:pt-2 lg:pb-6">
+          <ul className="flex flex-col sm:flex-row w-7/12 mx-2 md:my-2 lg:mx-0 lg:block lg:mt-6 space-y-2 tracking-wide">
+            <li className="min-w-max mt-2">
               <NavLink
                 to="/"
-                className="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
+                className="bg group flex items-center space-x-4 rounded-md p-1 md:px-4 md:py-3 text-gray-600"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20">
                   <path
@@ -31,7 +31,7 @@ const SideBar = () => {
             <li className="min-w-max">
               <NavLink
                 to="/education"
-                className="bg group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
+                className="bg group flex items-center space-x-4 rounded-md p-1 md:px-4 md:py-3 text-gray-600"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20">
                   <path
@@ -51,7 +51,7 @@ const SideBar = () => {
             <li className="min-w-max">
               <NavLink
                 to="/projects"
-                className="bg group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
+                className="bg group flex items-center space-x-4 rounded-md p-1 md:px-4 md:py-3 text-gray-600"
               >
                 <svg className="-ml-1 h-6 w-6" viewBox="0 0 24 24">
                   <path
@@ -73,7 +73,7 @@ const SideBar = () => {
               </NavLink>
             </li>
             {/* <li className="min-w-max">
-              <NavLink to="/other" className="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600">
+              <NavLink to="/other" className="group flex items-center space-x-4 rounded-md p-1 md:px-4 md:py-3 text-gray-600">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" >
                   <path className="fill-current text-gray-600 group-hover:text-cyan-600" d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z" />
                   <path className="fill-current text-gray-300 group-hover:text-cyan-300" d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z" />
@@ -84,7 +84,7 @@ const SideBar = () => {
             <li className="min-w-max">
               <NavLink
                 to="/contacts"
-                className="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
+                className="group flex items-center space-x-4 rounded-md p-1 md:px-4 md:py-3 text-gray-600"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20">
                   <path

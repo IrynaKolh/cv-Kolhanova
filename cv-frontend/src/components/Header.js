@@ -14,7 +14,7 @@ const Header = () => {
   }, [theme]);
 
   return (
-    <div className="flex flex-row justify-end gap-5 items-center pr-10 my-2">
+    <header className="flex flex-row absolute top-1 right-1 md:top-3 md:right-3 justify-end gap-5 items-center pr-10 my-2">
       <button className="" onClick={toggleTheme}>
         {theme === 'light' ? (
           <IconSunHigh
@@ -29,7 +29,7 @@ const Header = () => {
       <button className="" onClick={() => changeLanguage(i18n.language === 'ru' ? 'en' : 'ru')}>
         {i18n.language.toUpperCase()}
       </button>
-    </div>
+    </header>
   );
 };
 
