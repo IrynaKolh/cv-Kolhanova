@@ -77,7 +77,7 @@ const HomePage = () => {
         </div>
         <div className="flex items-center">
           <img
-            className="h-64 w-64 rounded-full lg:w-auto lg:h-auto"
+            className="h-64 w-64 rounded-full lg:w-auto lg:h-auto shadow-xl shadow-cyan-500/50"
             src="./assets/my-photo3.jpg"
             alt="Iryna"
           />

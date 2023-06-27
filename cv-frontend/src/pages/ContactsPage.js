@@ -42,11 +42,7 @@ const ContactsPage = () => {
       <div className="flex flex-row items-center gap-2">
         <IconBrandLinkedin size={36} strokeWidth={2} color={'#0ea5e9'} />
         <p>
-          <a
-            href="https://www.linkedin.com/in/iryna-kolhanova-46128266/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/iryna-kolhanova/" target="_blank" rel="noreferrer">
             <Trans i18nKey="contacts.linkedin" />
           </a>
         </p>

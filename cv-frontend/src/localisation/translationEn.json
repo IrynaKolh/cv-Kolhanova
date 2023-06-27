@@ -100,5 +100,10 @@
     "work": "Work expirience",
     "contacts": "Contacts"
   },
-  "footer": "Iryna Kolhanova"
+  "footer": "Iryna Kolhanova",
+  "404page": {
+    "p1": "This page does not exist.",
+    "p2": "Go ",
+    "span": "Skills page"
+  }
 }

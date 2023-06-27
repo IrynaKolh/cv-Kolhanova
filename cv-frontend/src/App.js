@@ -1,12 +1,15 @@
-import react, { useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import HomePage from './pages/HomePage';
-import EducationPage from './pages/EducationPage';
-import ProjectsPage from './pages/ProjectsPage';
-import OtherPage from './pages/OtherPage';
+
+import { Route, Routes } from 'react-router-dom';
+import react, { useState } from 'react';
+
 import ContactsPage from './pages/ContactsPage';
+import EducationPage from './pages/EducationPage';
+import HomePage from './pages/HomePage';
 import Layout from './components/Layout';
+import NotFoundPage from './pages/NotFoundPage';
+import OtherPage from './pages/OtherPage';
+import ProjectsPage from './pages/ProjectsPage';
 import { ThemeContext } from './contex';
 import { getTheme } from './helpers/utils';
 import { withTranslation } from 'react-i18next';
@@ -29,6 +32,7 @@ function App() {
           <Route path="projects" element={<ProjectsPage />} />
           {/* <Route path="other" element={<OtherPage />} /> */}
           <Route path="contacts" element={<ContactsPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </ThemeContext.Provider>

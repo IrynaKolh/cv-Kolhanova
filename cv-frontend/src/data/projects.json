@@ -16,7 +16,7 @@
     "github": "https://github.com/alexsmirnova13/graphiql-app/tree/develop",
     "level": "3",
     "description": "GraphiQL is a playground/IDE for graphQL requests. Our application offers users an easy and fast way to perform GraphQL queries to obtain data from various sources. With our intuitive interface, you can easily create and execute queries to get the information you need.",
-    "skills": ["React", "TypeScript", "Mantine", "FireBase", "Redux"],
+    "skills": [],
     "team": true
   },
   {
@@ -35,12 +35,12 @@
     "url": "https://youtube-kolh.netlify.app",
     "github": "",
     "level": "2",
-    "description": "Learning Angular project with API and Redux. SPA for seaching and filtring videos from youtube. ",
-    "skills": ["Angular", "TypeScript", "NgRx",  "Angular Material UI"],
+    "description": "Learning Angular project with API and Redux. SPA for searching and filtering videos from YouTube.",
+    "skills": ["Angular", "TypeScript", "NgRx", "Angular Material UI"],
     "team": false
   },
   {
-    "name": "AsyncRace",
+    "name": "Async Race",
     "imgUrl": "./assets/race.png",
     "url": "https://64910ad4c41d515b1259e466--timely-lolly-dc46a0.netlify.app/",
     "github": "https://github.com/IrynaKolh/asyncRace/tree/client",
