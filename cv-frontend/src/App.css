@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #0ea5e9;
+} */
+
+.active {
+  background-color: #67e8f9;
+  color: white
+}
+
+body[data-theme="light"] {
+  background-color: #ffffff;
+  color: #1f2937;  
+}
+
+/* body[data-theme="light"] button.my-class {
+  border: #1f2937 1px solid;    
+} */
+
+body[data-theme="dark"] {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+body[data-theme="dark"] button.my-class {
+  border: #ffffff 1px solid; 
+  color: #1f2937;   
+}

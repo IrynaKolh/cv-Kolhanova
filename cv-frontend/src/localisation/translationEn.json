@@ -1,0 +1,109 @@
+{
+  "homepage": {
+    "name": "Iryna Kolhanova ",
+    "jobTitle": "Front-end Developer",
+    "summary": "Summary ",
+    "text": "A highly skilled Frontend Web Developer with experience to design and implement responsive and user-friendly websites. Proficient in HTML, CSS, JavaScript, and various frontend frameworks. Strong ability to collaborate with cross-functional teams and deliver high-quality solutions. Continuously staying updated with emerging trends and technologies in frontend development.",
+    "skills": "Skills",
+    "langs": "Languages: ",
+    "libs": "Frameworks/Libraries: ",
+    "tools": "Tools: ",
+    "pm": "Project Management: ",
+    "ide": "IDEs: ",
+    "test": "Testing: ",
+    "db": "Databases: ",
+    "li1": "Experience with RESTful APIs, GraphQL and JSON",
+    "li2": "Strong problem-solving and analytical skills",
+    "li3": "Excellent communication and collaboration abilities"
+  },
+  "education": {
+    "title": "My Education",
+    "diploma": "Diploma: ",
+    "degree": "Bachelor and Master degrees in Sociology and Social Work",
+    "university": "V. N. Karazin Kharkiv National University",
+    "courses": "Courses: ",
+    "certificate": "Certificates",
+    "aws": "AWS Certification",
+    "achievement": "Achievement: "
+  },
+  "project": {
+    "title": "My Projects",
+    "team": "Team project",
+    "0": {
+      "name": "Managment-App",
+      "description": "RSS PM is an application that helps people achieve their goals. RSS PM is great for organizing your to-do lists, ideas, and is very easy to use. You can create several boards to use for various projects. SPA projects featuring a 100% adaptive design, using SASS."
+    },
+    "1": {
+      "name": "GraphiQL",
+      "description": "GraphiQL is a playground/IDE for graphQL requests. Our application offers users an easy and fast way to perform GraphQL queries to obtain data from various sources. With our intuitive interface, you can easily create and execute queries to get the information you need."
+    },
+    "2": {
+      "name": "Rick and Morty characters App",
+      "description": "Learning React project with API and Redux. SPA for exporing Rick and Morty cinematic Universe (characters, locations, episodes), with sorting and pagination."
+    },
+    "3": {
+      "name": "Youtube Video",
+      "description": "Learning Angular project with API and Redux. SPA for searching and filtering videos from YouTube."
+    },
+    "4": {
+      "name": "AsyncRace",
+      "description": "SPA to manage the collection of the cars, operate its engines, and show races statistics. App has own backend."
+    },
+    "5": {
+      "name": "Online Shop",
+      "description":  "An online vegetable store where goods will have the following functionality: filtering, sorting, searching, adding to cart."
+    },
+    "6": {
+      "name": "News Portal",
+      "description": "The News API is a simple HTTP REST API for searching and retrieving news from around the web. The project is designed to get the experience with the API - asynchronously receiving data and displaying it on the page."
+    },
+    "7": {
+      "name": "Presentation",
+      "description": "MongoDB presentation using Reveal.js (HTML presentation framework). The framework comes with a broad range of features including nested slides, Markdown support, Auto-Animate, PDF export, speaker notes, LaTeX support and syntax highlighted code."
+    },
+    "8": {
+      "name": "Portfolio",
+      "description": "Portfolio - landing page of a photographer's portfolio, it шы adaptive and interactive, with localization, theme. Key skills: valid semantic adaptive layout, easy to maintain readable code, export styles and graphics from Figma, using JavaScript to implement the functionality specified in the task"
+    },
+    "9": {
+      "name": "Memory Game",
+      "description": "A memory-game set of twelve pairs of identical cards, which are displayed face down. By clicking on a card, the player turns it over and clicks on the next card. If two cards have the same drawings, they remain open; if the drawings are different, the cards are turned face down. The goal of the game is to open all the cards in the least number of moves."
+    },
+    "10": {
+      "name": "Wordle",
+      "description": "Wordle game is implemented in Ukrainian language. Get 6 chances to guess the 5 letter word. The GREEN background in the word is the letter in the correct place. YELLOW - is in the word, but not elsewhere. GRAY - there is no such letter in the word."
+    },
+    "11": {
+      "name": "Random Joke",
+      "description": "Random-jokes is one of the JavaScript projects of the popular free English course freeCodeCamp. The project is designed to get the first experience with the API - asynchronously receiving data and displaying it on the page. This is an application in which, when a button is clicked, a random quote is displayed, received from any suitable API."
+    },
+    "12": {
+      "name": "Sounds of nature",
+      "description": "Project with media (audio files). The site, on each page of which landscapes of amazing beauty are displaying and its own unique melody are playing, into which the singing of birds are sounding. This is an application in which, when clicking on interactive elements, you can switch the image and sound."
+    },
+    "demo": "Demo",
+    "code": "Code"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "location": "Location: Cleveland, OH, USA",
+    "phone": "Phone: +1-216-376-****",
+    "email": "E-mail: iryna.kolhanova@gmail.com",
+    "skype": "Skype: belkin1987",
+    "linkedin": "Linkedin: Iryna Kolhanova",
+    "github": "Githab: Iryna Kolhanova"
+  },
+  "sidebar": {
+    "skills": "Skills",
+    "education": "Education",
+    "projects": "Projects",
+    "work": "Work expirience",
+    "contacts": "Contacts"
+  },
+  "footer": "Iryna Kolhanova",
+  "404page": {
+    "p1": "This page does not exist.",
+    "p2": "Go ",
+    "span": "Skills page"
+  }
+}
