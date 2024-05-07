@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { IconCircleLetterC } from '@tabler/icons-react';
 import { ThemeContext } from '../contex';
 import { Trans } from 'react-i18next';
 
 const Footer = () => {
-  const { theme } = useContext(ThemeContext);
+  const { theme } = React.useContext(ThemeContext);
   return (
     <footer className="flex flex-row gap-2 items-center justify-center">
       <IconCircleLetterC

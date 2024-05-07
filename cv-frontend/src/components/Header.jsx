@@ -1,15 +1,15 @@
-import React, { useContext, useEffect } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ThemeContext } from '../contex';
 import { IconSunHigh, IconMoon } from '@tabler/icons-react';
 
 const Header = () => {
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { theme, toggleTheme } = React.useContext(ThemeContext);
   const { i18n } = useTranslation();
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
-  useEffect(() => {
+  React.useEffect(() => {
     document.body.dataset.theme = theme;
   }, [theme]);
 

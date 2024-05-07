@@ -30,7 +30,19 @@ const EducationPage = () => {
         </p>
         <ul className="flex flex-col justify-between gap-2">
           <li className="flex flex-wrap flex-row gap-2 items-center">
-            <b>RS School: </b>JavaScript, TypeScript, React, Angular, NodeJS, AWS Fundamental
+            <b>CTD School: </b> Node.JS, Express
+            <a
+              className="flex flex-row items-center text-sky-500"
+              href="https://www.linkedin.com/in/iryna-kolhanova/overlay/1708010186198/single-media-viewer/?profileId=ACoAAA3sEAkBw47NjFvrKDJBoAOhMQ9sPsU2T0A"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <IconLink size={20} strokeWidth={1} color={'#0ea5e9'} />
+              <Trans i18nKey="education.certificate" />
+            </a>
+          </li>
+          <li className="flex flex-wrap flex-row gap-2 items-center">
+            <b>RS School: </b>JavaScript, TypeScript, React, Angular, Node.JS, AWS Fundamental
             <a
               className="flex flex-row items-center text-sky-500"
               href="https://app.rs.school/cv/76ff4781-a918-470b-9c8f-2626607a1ec8"
@@ -45,6 +57,8 @@ const EducationPage = () => {
             <b>AWS: </b>AWS Cloud Quest: Cloud Practitioner
             <a
               className="flex flex-row items-center text-sky-500"
+              target="_blank"
+              rel="noreferrer"
               href="https://www.credly.com/badges/503868b4-63ee-4e74-a366-1bf7b7bd3f46/linked_in_profile"
             >
               <IconLink size={20} strokeWidth={1} color={'#0ea5e9'} />
@@ -59,7 +73,8 @@ const EducationPage = () => {
             </a>
           </li>
           <li className="flex flex-wrap flex-row gap-2 items-center">
-            <b>RedRover School: </b> Automation Testing (Cypress), Front-end (React)
+            <b>RedRover School: </b> Automation Testing (Cypress, Playwright, Selenium, TestNG),
+            Front-end (React)
             <a
               href="https://www.linkedin.com/company/redrover-school/"
               target="_blank"
@@ -85,10 +100,7 @@ const EducationPage = () => {
           >
             <IconLink size={20} strokeWidth={1} color={'#0ea5e9'} />
           </a>
-          <img
-            src="https://www.codewars.com/users/rsschool_c1960b19d8371dcf/badges/micro"
-            alt="Codewars"
-          ></img>
+          <img src="https://www.codewars.com/users/Iryna%20K/badges/micro" alt="Codewars"></img>
         </div>
       </div>
     </div>

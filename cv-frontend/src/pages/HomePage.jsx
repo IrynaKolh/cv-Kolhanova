@@ -26,13 +26,15 @@ const HomePage = () => {
               <b>
                 <Trans i18nKey="homepage.langs" />
               </b>
-              JavaScript (ES6+), TypeScript, HTML5, CSS3 (preprocessors: Sass, Less), NodeJS
+              JavaScript (ES6+), TypeScript, HTML5, CSS3 (preprocessors: Sass, Less), NodeJS, Java,
+              Python
             </li>
             <li>
               <b>
                 <Trans i18nKey="homepage.libs" />
               </b>
-              React, Angular, Material UI, Bootstrap, TailwindCSS, Mantine, Express, Next.js
+              React, Angular, Material UI, Bootstrap, TailwindCSS, Mantine, Chakra UI, Express,
+              Next.js
             </li>
             <li>
               <b>
@@ -56,7 +58,7 @@ const HomePage = () => {
               <b>
                 <Trans i18nKey="homepage.test" />{' '}
               </b>
-              Cypress, Jest, RTL
+              Cypress, Jest, RTL, Selenium, TestNG, Playwright
             </li>
             <li>
               <b>
@@ -77,8 +79,8 @@ const HomePage = () => {
         </div>
         <div className="flex items-center">
           <img
-            className="h-64 w-64 rounded-full lg:w-auto lg:h-auto shadow-xl shadow-cyan-500/50"
-            src="./assets/my-photo3.jpg"
+            className="h-72 w-72 rounded-full lg:w-auto lg:h-auto shadow-xl shadow-cyan-500/50"
+            src="https://github.com/IrynaKolh.png"
             alt="Iryna"
           />
         </div>

@@ -1,27 +1,66 @@
 [
   {
+    "name": "Tutor-App",
+    "imgUrl": "../assets/tutor-app.png",
+    "url": "https://getyourtutor.vercel.app/",
+    "github": "https://github.com/Code-the-Dream-School/ffprac-team2-front",
+    "level": "4",
+    "description": "GetYourTutor is your go-to online platform designed to simplify the process of connecting parents with expert tutors for online lessons tailored to their children's needs.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Formik",
+      "Chakra UI",
+      "Vite"
+    ],
+    "team": true
+  },
+  {
+    "name": "HM Baking",
+    "imgUrl": "../assets/baking.png",
+    "url": "https://ikol-bakery-site.onrender.com/",
+    "github": "https://github.com/IrynaKolh/ctd_final_project",
+    "level": "4",
+    "description": "Homemade Bakery is full-stack web application for opening store and sell products or buying delicious products from local stores.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Formik",
+      "Vite",
+      "TailwindCSS",
+      "Cloudinary"
+    ],
+    "team": false
+  },
+  {
     "name": "Managment-App",
-    "imgUrl": "./assets/PmApp.png",
+    "imgUrl": "../assets/PmApp.png",
     "url": "https://rss-pm-app.netlify.app/",
     "github": "https://github.com/DDD-fx/RSS-Project-Managment-App",
     "level": "3",
     "description": "RSS PM is an application that helps people achieve their goals. RSS PM is great for organizing your to-do lists, ideas, and is very easy to use. You can create several boards to use for various projects. SPA projects featuring a 100% adaptive design, using SASS.",
-    "skills": ["Angular", "TypeScript", "NgRx",  "Angular Material UI"],
+    "skills": ["Angular", "TypeScript", "NgRx", "Angular Material UI"],
     "team": true
   },
   {
     "name": "GraphiQL",
-    "imgUrl": "./assets/GraphiGL.png",
+    "imgUrl": "../assets/GraphiGL.png",
     "url": "https://alexsmirnova13.github.io/graphiql-app/",
     "github": "https://github.com/alexsmirnova13/graphiql-app/tree/develop",
     "level": "3",
     "description": "GraphiQL is a playground/IDE for graphQL requests. Our application offers users an easy and fast way to perform GraphQL queries to obtain data from various sources. With our intuitive interface, you can easily create and execute queries to get the information you need.",
-    "skills": [],
+    "skills": ["React", "TypeScript", "Redux", "Vite", "React Testing Library"],
     "team": true
   },
   {
     "name": "Rick and Morty characters App",
-    "imgUrl": "./assets/RickMorty.png",
+    "imgUrl": "../assets/RickMorty.png",
     "url": "https://aquamarine-duckanoo-4aa8b0.netlify.app/",
     "github": "https://github.com/IrynaKolh/react-rss-app",
     "level": "3",
@@ -31,7 +70,7 @@
   },
   {
     "name": "Youtube Video",
-    "imgUrl": "./assets/youtube.png",
+    "imgUrl": "../assets/youtube.png",
     "url": "https://youtube-kolh.netlify.app",
     "github": "",
     "level": "2",
@@ -41,17 +80,17 @@
   },
   {
     "name": "Async Race",
-    "imgUrl": "./assets/race.png",
+    "imgUrl": "../assets/race.png",
     "url": "https://64910ad4c41d515b1259e466--timely-lolly-dc46a0.netlify.app/",
     "github": "https://github.com/IrynaKolh/asyncRace/tree/client",
     "level": "2",
     "description": "SPA to manage the collection of the cars, operate its engines, and show races statistics. App has own backend.",
     "skills": ["TypeScript", "HTML", "CSS", "Figma", "Webpack"],
     "team": false
-  },  
+  },
   {
     "name": "Online Shop",
-    "imgUrl": "./assets/shop.png",
+    "imgUrl": "../assets/shop.png",
     "url": "https://rolling-scopes-school.github.io/irynakolh-JSFE2022Q1/onlineShop/",
     "github": "",
     "level": "2",
@@ -61,7 +100,7 @@
   },
   {
     "name": "News Portal",
-    "imgUrl": "./assets/News.png",
+    "imgUrl": "../assets/News.png",
     "url": "https://newsportalkolh.netlify.app/",
     "github": "https://github.com/IrynaKolh/migration_to_ts/tree/develop",
     "level": "2",
@@ -71,7 +110,7 @@
   },
   {
     "name": "Presentation",
-    "imgUrl": "./assets/MongoDB.png",
+    "imgUrl": "../assets/MongoDB.png",
     "url": "https://rolling-scopes-school.github.io/irynakolh-JSFE2022Q1/presentation/",
     "github": "",
     "level": "",
@@ -81,7 +120,7 @@
   },
   {
     "name": "Portfolio",
-    "imgUrl": "./assets/portfolio.png",
+    "imgUrl": "../assets/portfolio.png",
     "url": "https://rolling-scopes-school.github.io/irynakolh-JSFEPRESCHOOL/portfolio",
     "github": "",
     "level": "2",
@@ -91,7 +130,7 @@
   },
   {
     "name": "Memory Game",
-    "imgUrl": "./assets/memory-game.png",
+    "imgUrl": "../assets/memory-game.png",
     "url": "https://rolling-scopes-school.github.io/irynakolh-JSFEPRESCHOOL/memory-game/",
     "github": "",
     "level": "2",
@@ -101,7 +140,7 @@
   },
   {
     "name": "Wordle",
-    "imgUrl": "./assets/wordle.png",
+    "imgUrl": "../assets/wordle.png",
     "url": "https://649131c038df29729d152421--darling-moxie-35a8e9.netlify.app/",
     "github": "",
     "level": "2",
@@ -111,7 +150,7 @@
   },
   {
     "name": "Random Joke",
-    "imgUrl": "./assets/joke.png",
+    "imgUrl": "../assets/joke.png",
     "url": "https://rolling-scopes-school.github.io/irynakolh-JSFEPRESCHOOL/random-jokes/",
     "github": "",
     "level": "1",
@@ -121,7 +160,7 @@
   },
   {
     "name": "Sounds of nature",
-    "imgUrl": "./assets/sounds.png",
+    "imgUrl": "../assets/sounds.png",
     "url": "https://competent-neumann-f32c94.netlify.app",
     "github": "",
     "level": "1",
