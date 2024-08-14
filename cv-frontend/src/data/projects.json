@@ -1,5 +1,15 @@
 [
   {
+    "name": "RedRover School",
+    "imgUrl": "../assets/redrover.png",
+    "url": "https://redroverschool.github.io/RedRover.school/?lang=en",
+    "github": "",
+    "level": "4",
+    "description": "Development and maintenance of the official website for RedRover School, a non-commercial IT school specializing in training QA Engineers (manual and automated testing). The project's goal was to provide a user-friendly and functional platform for new students to access course enrollment and information about the school.",
+    "skills": ["JavaScript", "HTML", "CSS", "Figma"],
+    "team": false
+  },
+  {
     "name": "Tutor-App",
     "imgUrl": "../assets/tutor-app.png",
     "url": "https://getyourtutor.vercel.app/",
