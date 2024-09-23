@@ -73,8 +73,7 @@ const EducationPage = () => {
             </a>
           </li>
           <li className="flex flex-wrap flex-row gap-2 items-center">
-            <b>RedRover School: </b> Automation Testing (Cypress, Playwright, Selenium, TestNG),
-            Front-end (React)
+            <b>RedRover School: </b> Automation Testing (Cypress, Playwright, Selenium, TestNG)
             <a
               href="https://www.linkedin.com/company/redrover-school/"
               target="_blank"

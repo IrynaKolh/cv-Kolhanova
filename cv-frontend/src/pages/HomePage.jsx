@@ -27,14 +27,14 @@ const HomePage = () => {
                 <Trans i18nKey="homepage.langs" />
               </b>
               JavaScript (ES6+), TypeScript, HTML5, CSS3 (preprocessors: Sass, Less), NodeJS, Java,
-              Python
+              Python, Ruby
             </li>
             <li>
               <b>
                 <Trans i18nKey="homepage.libs" />
               </b>
               React, Angular, Material UI, Bootstrap, TailwindCSS, Mantine, Chakra UI, Express,
-              Next.js
+              Next.js, Ruby on Rails
             </li>
             <li>
               <b>

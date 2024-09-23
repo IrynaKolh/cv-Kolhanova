@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Managment-App",
+    "imgUrl": "../assets/PmApp.png",
+    "url": "https://rss-pm-app.netlify.app/",
+    "github": "https://github.com/DDD-fx/RSS-Project-Managment-App",
+    "level": "3",
+    "description": "RSS PM is an application that helps people achieve their goals. RSS PM is great for organizing your to-do lists, ideas, and is very easy to use. You can create several boards to use for various projects. SPA projects featuring a 100% adaptive design, using SASS.",
+    "skills": ["Angular", "TypeScript", "NgRx", "Angular Material UI"],
+    "team": true
+  },
+  {
+    "name": "Async Race",
+    "imgUrl": "../assets/race.png",
+    "url": "https://64910ad4c41d515b1259e466--timely-lolly-dc46a0.netlify.app/",
+    "github": "https://github.com/IrynaKolh/asyncRace/tree/client",
+    "level": "2",
+    "description": "SPA to manage the collection of the cars, operate its engines, and show races statistics. App has own backend.",
+    "skills": ["TypeScript", "HTML", "CSS", "Figma", "Webpack"],
+    "team": false
+  },
+  {
+    "name": "News Portal",
+    "imgUrl": "../assets/News.png",
+    "url": "https://newsportalkolh.netlify.app/",
+    "github": "https://github.com/IrynaKolh/migration_to_ts/tree/develop",
+    "level": "2",
+    "description": "The News API is a simple HTTP REST API for searching and retrieving news from around the web. The project is designed to get the experience with the API - asynchronously receiving data and displaying it on the page.",
+    "skills": ["TypeScript", "HTML", "CSS", "Webpack"],
+    "team": false
+  },
+  {
+    "name": "Wordle",
+    "imgUrl": "../assets/wordle.png",
+    "url": "https://649131c038df29729d152421--darling-moxie-35a8e9.netlify.app/",
+    "github": "",
+    "level": "2",
+    "description": "Wordle game is implemented in Ukrainian language. Get 6 chances to guess the 5 letter word. The GREEN background in the word is the letter in the correct place. YELLOW - is in the word, but not elsewhere. GRAY - there is no such letter in the word.",
+    "skills": ["JavaScript", "HTML", "CSS"],
+    "team": false
+  },
+  {
+    "name": "Random Joke",
+    "imgUrl": "../assets/joke.png",
+    "url": "https://rolling-scopes-school.github.io/irynakolh-JSFEPRESCHOOL/random-jokes/",
+    "github": "",
+    "level": "1",
+    "description": "Random-jokes is one of the JavaScript projects of the popular free English course freeCodeCamp. The project is designed to get the first experience with the API - asynchronously receiving data and displaying it on the page. This is an application in which, when a button is clicked, a random quote is displayed, received from any suitable API.",
+    "skills": ["JavaScript", "HTML", "CSS"],
+    "team": false
+  },
+  {
+    "name": "Sounds of nature",
+    "imgUrl": "../assets/sounds.png",
+    "url": "https://competent-neumann-f32c94.netlify.app",
+    "github": "",
+    "level": "1",
+    "description": "Project with media (audio files). The site, on each page of which landscapes of amazing beauty are displaying and its own unique melody are playing, into which the singing of birds are sounding. This is an application in which, when clicking on interactive elements, you can switch the image and sound.",
+    "skills": ["JavaScript", "HTML", "CSS"],
+    "team": false
+  },
+
+  {
+    "name": "Managment-App",
+    "description": "RSS PM is an application that helps people achieve their goals. RSS PM is great for organizing your to-do lists, ideas, and is very easy to use. You can create several boards to use for various projects. SPA projects featuring a 100% adaptive design, using SASS."
+  },
+  {
+    "name": "Managment-App",
+    "description": "RSS PM – приложение, помогающее людям достичь поставленные задачи. RSS PM отлично подходит для организации ваших списков дел, идей и очень прост в использовании. Вы можете создать несколько досок для использования в различных проектах. Одностраничный сайт с 100% адаптивным дизайном с использованием SASS."
+  },
+  {
+    "name": "AsyncRace",
+    "description": "SPA to manage the collection of the cars, operate its engines, and show races statistics. App has own backend."
+  },
+  {
+    "name": "Гонки",
+    "description": "Одностраничный сайт для управления коллекцией автомобилей, управления их двигателями и отображения статистики гонок. Приложение имеет собственный бэкенд."
+  },
+  {
+    "name": "News Portal",
+    "description": "The News API is a simple HTTP REST API for searching and retrieving news from around the web. The project is designed to get the experience with the API - asynchronously receiving data and displaying it on the page."
+  },
+  {
+    "name": "Новостной портал",
+    "description": "Новостной API — это простые HTTP REST API запросы для поиска и извлечения новостей из Интернета. Проект предназначен для опыта работы с API — асинхронного получения данных и их отображения на странице."
+  },
+  {
+    "name": "Wordle",
+    "description": "Wordle game is implemented in Ukrainian language. Get 6 chances to guess the 5 letter word. The GREEN background in the word is the letter in the correct place. YELLOW - is in the word, but not elsewhere. GRAY - there is no such letter in the word."
+  },
+  {
+    "name": "Random Joke",
+    "description": "Random-jokes is one of the JavaScript projects of the popular free English course freeCodeCamp. The project is designed to get the first experience with the API - asynchronously receiving data and displaying it on the page. This is an application in which, when a button is clicked, a random quote is displayed, received from any suitable API."
+  },
+  {
+    "name": "Sounds of nature",
+    "description": "Project with media (audio files). The site, on each page of which landscapes of amazing beauty are displaying and its own unique melody are playing, into which the singing of birds are sounding. This is an application in which, when clicking on interactive elements, you can switch the image and sound."
+  },
+   {
+    "name": "Слова",
+    "description": "Игра в слова реализована на украинском языке. Получите 6 шансов угадать слово из 5 букв. ЗЕЛЁНЫЙ фон в слове - буква в правильном месте. ЖЕЛТАЯ - есть в слове, но не в другом месте. СЕРЫЙ  - нет такой буквы в слове."
+  },
+   {
+    "name": "Случайная шутка",
+    "description": "Случайная шутка — это один из JavaScript-проектов популярного бесплатного курса на английском языке freeCodeCamp. Проект предназначен для получения первого опыта работы с API — асинхронного получения данных и отображения их на странице. Это приложение, в котором при нажатии на кнопку отображается случайная цитата/шутка, полученная из любого подходящего API."
+  },
+  {
+    "name": "Звуки природы",
+    "description": "Проект с медиа (аудиофайлами). Сайт, на каждой странице которого отображаются удивительные по красоте пейзажи и играет своя неповторимая мелодия, в которой звучит пение птиц. Это приложение, в котором, при нажатии на интерактивные элементы можно переключать изображение и звук."
+  }
+]
